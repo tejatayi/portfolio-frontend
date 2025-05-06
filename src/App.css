@@ -1,0 +1,62 @@
+/* App.css */
+
+.app-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 10px 30px;
+  z-index: 10;
+}
+
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation-bar li a:hover {
+  color: #00bfff;
+}
+
+.section-container {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.intro,
+.experience,
+.projects,
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
