@@ -11,7 +11,7 @@
 
 .navigation-bar {
   position: fixed;
-  top: 0; /* push to very top for full coverage */
+  top: 0;
   left: 0;
   width: 100%;
   background: #000 !important; /* force black background */

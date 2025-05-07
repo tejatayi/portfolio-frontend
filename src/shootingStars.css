@@ -14,14 +14,14 @@
   top: -10px;
   width: 2px;
   height: 80px;
-  background: linear-gradient(-45deg, white, transparent);
+  background: linear-gradient(45deg, rgb(209, 209, 6), transparent);
   opacity: 0.7;
   animation: shoot 3s linear infinite;
 }
 
 @keyframes shoot {
   0% {
-    transform: translateX(0) translateY(0) rotate(45deg);
+    transform: translateX(0) translateY(0) rotate(50deg);
     opacity: 0;
   }
   10% {

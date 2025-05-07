@@ -4,10 +4,10 @@ import "./shootingStars.css";
 function ShootingStars() {
   return (
     <div className="shooting-stars">
-      {[...Array(10)].map((_, i) => {
-        const left = Math.random() * 100;
+      {[...Array(60)].map((_, i) => {
+        const left = Math.random() * 150;
         const delay = Math.random() * 10;
-        const duration = Math.random() * 2 + 3;
+        const duration = Math.random() * 2 + 15;
 
         return (
           <div
