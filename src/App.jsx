@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ShootingStars from "./shootingStars";
 import "./App.css";
+import Experience from "./Pages/Experience";
 
 function App() {
   const particlesInit = async (main) => {
@@ -43,7 +44,7 @@ function App() {
           </p>
         </div>
         <div id="experience" className="experience">
-          <p>This is Experience section</p>
+          <Experience />
         </div>
         <div id="projects" className="projects">
           <p>This is Projects section</p>

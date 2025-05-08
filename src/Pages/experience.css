@@ -1,0 +1,40 @@
+.experience-content {
+  max-width: 900px;
+  padding: 40px 20px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  color: #e0e0e0;
+}
+
+.experience-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.job {
+  margin-bottom: 40px;
+}
+
+.job h3 {
+  font-size: 1.4rem;
+  color: #37a5ca;
+  margin-bottom: 5px;
+}
+
+.duration {
+  display: block;
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.job ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.job ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
