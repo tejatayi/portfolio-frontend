@@ -30,7 +30,17 @@ function App() {
       </nav>
       <div className="section-container">
         <div id="intro" className="intro">
-          <p>Hi This is Teja, Software developer</p>
+          <h1 className="typing">
+            <span className="echo">$ echo </span>
+            <span className="highlight">"Hi</span>, I'm{" "}
+            <span className="highlight">Teja"</span>
+          </h1>
+          <p className="fade-in">
+            I got into software development as I love solving real-world
+            problems with code. <br />
+            I’ve worked on everything from mobile apps to backend systems, and
+            I’m always looking to learn more and build better.
+          </p>
         </div>
         <div id="experience" className="experience">
           <p>This is Experience section</p>
