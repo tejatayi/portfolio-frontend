@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ShootingStars from "./shootingStars";
 import "./App.css";
-import Experience from "./componets/Experience";
+import Experience from "./components/Experience";
 
 function App() {
   const particlesInit = async (main) => {

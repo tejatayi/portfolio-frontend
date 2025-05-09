@@ -26,6 +26,22 @@ const experienceData = [
       "Refactored microservices and secured endpoints.",
     ],
   },
+  {
+    id: 3,
+    company: "Accenture",
+    role: "Associate Developer",
+    duration: "May 2021 > Sep 2021",
+    points: [
+      "Completed training in Java backend, REST APIs, Agile.",
+      "Built backend modules handling database operations.",
+      "Engineered authentication using Spring Boot, JWT, and Firebase.",
+      "Developed cart and payment systems for enhanced UX.",
+      "Completed training in Java backend, REST APIs, Agile.",
+      "Completed training in Java backend, REST APIs, Agile.",
+      "Completed training in Java backend, REST APIs, Agile.",
+      "Completed training in Java backend, REST APIs, Agile.",
+    ],
+  },
 ];
 
 export default experienceData;
