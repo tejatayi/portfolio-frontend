@@ -1,54 +1,46 @@
-.experience {
+.experience-carousel {
   padding: 40px 20px;
-  background: transparent;
-  color: #e0e0e0;
   text-align: center;
+  color: #e0e0e0;
 }
 
-.experience h2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: #e8eff1;
+.experience-carousel h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #3c88a2;
 }
 
-.experience-scroll-container {
+.carousel-wrapper {
   display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1%;
   box-sizing: border-box;
-  -webkit-overflow-scrolling: touch;
 }
 
-.experience-scroll-container::-webkit-scrollbar {
-  display: none;
-}
-
-.job {
-  flex: 0 0 auto;
-  min-width: 320px;
-  max-width: 400px;
-  scroll-snap-align: start;
-  background: rgba(255, 255, 255, 0.05);
+.carousel-button {
+  background: none;
+  border: none;
+  color: #535759;
+  font-size: 1rem;
+  cursor: pointer;
   padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.carousel-button:hover {
+  transform: scale(1.2);
+}
+
+.single-job {
+  width: 95%;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
   border-radius: 10px;
-  border-left: 4px solid #37a5ca;
-  text-align: left;
+  text-align: center;
   transition: transform 0.3s;
-}
-
-.job:hover {
-  transform: translateY(-5px);
-}
-
-.job h3 {
-  margin-bottom: 0.3rem;
-  color: #fff;
 }
 
 .duration {
@@ -65,4 +57,30 @@
 .job li {
   margin-bottom: 8px;
   line-height: 1.6;
+}
+
+.single-job ul {
+  list-style: none; /* 🔥 Removes bullets */
+  padding-left: 0; /* 🔄 Removes default bullet spacing */
+  margin: 0 auto; /* ✅ Centers list horizontally */
+  text-align: center; /* ✅ Centers text */
+}
+
+.single-job li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.company {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e1d0d0;
+  margin: 0;
+}
+
+.role {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #cccccc;
+  margin: 0 0 10px;
 }
