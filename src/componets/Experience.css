@@ -1,0 +1,68 @@
+.experience {
+  padding: 40px 20px;
+  background: transparent;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #e8eff1;
+}
+
+.experience-scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100vw;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+.experience-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.job {
+  flex: 0 0 auto;
+  min-width: 320px;
+  max-width: 400px;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #37a5ca;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.job:hover {
+  transform: translateY(-5px);
+}
+
+.job h3 {
+  margin-bottom: 0.3rem;
+  color: #fff;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.7rem;
+  display: block;
+}
+
+.job ul {
+  padding-left: 20px;
+}
+
+.job li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
