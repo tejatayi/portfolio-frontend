@@ -1,20 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import experienceData from "../Data/experienceData";
 import "./Experience.css";
 
 function Experience() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
 
   const goToPrev = () => {
-    setCurrentIndex((prev) =>
-      prev === 0 ? experienceData.length - 1 : prev - 1
-    );
+    setIsFading(true);
+    setTimeout(() => {
+      setCurrentIndex((prev) =>
+        prev === 0 ? experienceData.length - 1 : prev - 1
+      );
+      setIsFading(false);
+    }, 300);
   };
 
   const goToNext = () => {
-    setCurrentIndex((prev) =>
-      prev === experienceData.length - 1 ? 0 : prev + 1
-    );
+    setIsFading(true);
+    setTimeout(() => {
+      setCurrentIndex((prev) =>
+        prev === experienceData.length - 1 ? 0 : prev + 1
+      );
+      setIsFading(false);
+    }, 300);
   };
 
   const currentJob = experienceData[currentIndex];
@@ -27,7 +36,7 @@ function Experience() {
           &lt;
         </button>
 
-        <div className="job single-job">
+        <div className={`job single-job ${isFading ? "fade" : "show"}`}>
           <p className="company">{currentJob.company}</p>
           <p className="role">{currentJob.role}</p>
           <span className="duration">{currentJob.duration}</span>

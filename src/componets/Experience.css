@@ -84,3 +84,13 @@
   color: #cccccc;
   margin: 0 0 10px;
 }
+
+.single-job.fade {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.single-job.show {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
