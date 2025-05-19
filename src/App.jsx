@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import ShootingStars from "./shootingStars";
 import "./App.css";
 import Experience from "./components/Experience";
+import Projects from "./components/Project";
 
 function App() {
   const particlesInit = async (main) => {
@@ -47,7 +48,7 @@ function App() {
           <Experience />
         </div>
         <div id="projects" className="projects">
-          <p>This is Projects section</p>
+          <Projects />
         </div>
         <div id="contact" className="contact">
           <p>This is Contact section</p>

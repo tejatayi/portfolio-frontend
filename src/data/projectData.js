@@ -1,0 +1,60 @@
+const projectsData = [
+  {
+    id: 1,
+    title: "Delivery App",
+    image: "/assets/groupchat.png",
+    link: "...",
+    gridColumn: "1 / 2",
+    gridRow: "1 / 3",
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    image: "/assets/portfolio.png",
+    link: "...",
+    gridColumn: "2 / 4",
+    gridRow: "2 / 3",
+  },
+  {
+    id: 3,
+    title: "Backend Left",
+    image: "/assets/backend1.png",
+    link: "...",
+    gridColumn: "1 / 5",
+    gridRow: "3 / 4",
+  },
+  {
+    id: 4,
+    title: "Backend Delivery app",
+    image: "/assets/backend2.png",
+    link: "...",
+    gridColumn: "2 / 3",
+    gridRow: "1 / 2",
+  },
+  {
+    id: 5,
+    title: "Time Sheet",
+    image: "/assets/redloader.png",
+    link: "...",
+    gridColumn: "5 / 6",
+    gridRow: "2 / 4",
+  },
+  {
+    id: 6,
+    title: "Back-end Time-Sheet",
+    image: "/assets/billing.png",
+    link: "...",
+    gridColumn: "4 / 5",
+    gridRow: "2 / 3",
+  },
+  {
+    id: 7,
+    title: "LeetCode-Repo",
+    image: "/assets/billing.png",
+    link: "...",
+    gridColumn: "3 / 6",
+    gridRow: "1 / 2",
+  },
+];
+
+export default projectsData;

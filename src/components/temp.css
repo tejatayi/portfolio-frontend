@@ -1,0 +1,15 @@
+tile-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(3, 1fr); /* exactly 3 rows */
+  aspect-ratio: 5 / 3; /* make grid area proportional */
+  grid-auto-flow: dense;
+  gap: 1rem;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20% 33.33%; /* visual grid every column & row */
+}
