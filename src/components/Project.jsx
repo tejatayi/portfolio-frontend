@@ -19,7 +19,19 @@ function Projects() {
               gridRow: project.gridRow || "auto",
             }}
           >
-            <img src={project.image} alt={project.title} />
+            {project.video ? (
+              <video
+                src={project.video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="tile-video"
+              />
+            ) : (
+              <img src={project.image} alt={project.title} />
+            )}
+
             <div className="overlay">
               <h3>{project.title}</h3>
               <p>{project.description}</p>

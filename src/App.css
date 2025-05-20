@@ -54,6 +54,8 @@
   width: 100vw;
   text-align: center;
   box-sizing: border-box;
+  padding-top: 250px;
+  padding-bottom: 60px;
 }
 
 .intro {
