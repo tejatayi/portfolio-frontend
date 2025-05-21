@@ -50,7 +50,7 @@ const projectsData = [
   {
     id: 7,
     title: "LeetCode-Repo",
-    video: "public/assets/LeetCode.mp4",
+    image: "public/assets/leetcode.png",
     link: "...",
     gridColumn: "3 / 6",
     gridRow: "1 / 2",
