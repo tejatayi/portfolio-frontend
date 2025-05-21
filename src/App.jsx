@@ -5,6 +5,7 @@ import ShootingStars from "./shootingStars";
 import "./App.css";
 import Experience from "./components/Experience";
 import Projects from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   const particlesInit = async (main) => {
@@ -51,7 +52,7 @@ function App() {
           <Projects />
         </div>
         <div id="contact" className="contact">
-          <p>This is Contact section</p>
+          <Contact />
         </div>
       </div>
     </div>
