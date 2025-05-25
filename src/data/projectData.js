@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 1,
     title: "Delivery App",
-    image: "public/assets/DeliveryApp_Login.png",
+    image: "DeliveryApp_Login.png",
     link: "https://github.com/tejatayi/DeliveryApp",
     gridColumn: "1 / 2",
     gridRow: "1 / 3",
@@ -10,7 +10,7 @@ const projectsData = [
   {
     id: 2,
     title: "Light weight Cryptography",
-    image: "public/assets/cryptography.jpg",
+    image: "cryptography.jpg",
     link: "...",
     gridColumn: "2 / 4",
     gridRow: "2 / 3",
@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 3,
     title: "Portfolio",
-    video: "public/assets/portfolio.mp4",
+    video: "portfolio.mp4",
     link: "...",
     gridColumn: "1 / 5",
     gridRow: "3 / 4",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 4,
     title: "Backend Delivery ",
-    image: "public/assets/backend_img_m3.png",
+    image: "backend_img_m3.png",
     link: "...",
     gridColumn: "2 / 3",
     gridRow: "1 / 2",
@@ -34,7 +34,7 @@ const projectsData = [
   {
     id: 5,
     title: "Time Sheet",
-    image: "/assets/redloader.png",
+    image: "backend_img_m3.png",
     link: "...",
     gridColumn: "5 / 6",
     gridRow: "2 / 4",
@@ -42,7 +42,7 @@ const projectsData = [
   {
     id: 6,
     title: "Backend TimeSheet",
-    image: "public/assets/backend_img_m1.png",
+    image: "backend_img_m1.png",
     link: "...",
     gridColumn: "4 / 5",
     gridRow: "2 / 3",
@@ -50,7 +50,7 @@ const projectsData = [
   {
     id: 7,
     title: "LeetCode-Repo",
-    image: "public/assets/leetcode.png",
+    image: "leetcode.png",
     link: "...",
     gridColumn: "3 / 6",
     gridRow: "1 / 2",

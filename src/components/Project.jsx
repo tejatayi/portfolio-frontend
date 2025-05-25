@@ -24,7 +24,9 @@ function Projects() {
           >
             {project.video ? (
               <video
-                src={project.video}
+                src={
+                  new URL(`../assets/${project.video}`, import.meta.url).href
+                }
                 autoPlay
                 loop
                 muted
@@ -32,7 +34,12 @@ function Projects() {
                 className="tile-video"
               />
             ) : (
-              <img src={project.image} alt={project.title} />
+              <img
+                src={
+                  new URL(`../assets/${project.image}`, import.meta.url).href
+                }
+                alt={project.title}
+              />
             )}
 
             <div className="overlay">
