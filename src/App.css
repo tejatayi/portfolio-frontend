@@ -119,6 +119,7 @@ html {
   white-space: nowrap;
   border-right: 2px solid #00bfff;
   width: 0;
+  width: 100%;
   animation: typing 2s steps(60, end) forwards, blink 0.75s step-end infinite;
 }
 
@@ -134,5 +135,20 @@ html {
 @keyframes blink {
   60% {
     border-color: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .typing {
+    width: 100% !important;
   }
 }

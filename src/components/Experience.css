@@ -1,6 +1,6 @@
 .experience-section {
   padding: 2rem;
-  height: 700px;
+  height: auto;
   background-color: transparent;
   overflow-x: auto;
   white-space: nowrap;
@@ -57,7 +57,7 @@
 .stack-wrapper {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,5 +129,19 @@
   }
   100% {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .stack-wrapper {
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 1rem;
   }
 }
