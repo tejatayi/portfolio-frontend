@@ -6,10 +6,9 @@ function Projects() {
   return (
     <section id="projects" className="projects-section">
       {/* Luffy image positioned to the left side */}
-      <img src="/assets/luffy.png" alt="Luffy" className="project-image-left" />
+      {/* <img src="/assets/luffy.png" alt="Luffy" className="project-image-left" /> */}
 
       <h2 className="section-title">Projects & Repositories</h2>
-
       <div className="tile-grid">
         {projectsData.map((project) => (
           <a
