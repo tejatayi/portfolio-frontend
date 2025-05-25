@@ -69,7 +69,7 @@ function Contact() {
           <p>Location: United States</p>
           <div className="social-icons">
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/saisivateja/"
               target="_blank"
               rel="noreferrer"
             >
