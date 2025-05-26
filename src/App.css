@@ -185,6 +185,37 @@ html {
   .navbar-mobile {
     display: flex; /* ✅ shows mobile nav */
   }
+
+  .intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* ✅ centers vertically */
+    align-items: center;
+    padding: 30px 1rem 20px 1rem; /* ✅ accounts for navbar + adds spacing */
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .typing {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    white-space: normal; /* ✅ allow wrapping instead of cutoff */
+    padding: 0 1rem;
+  }
+
+  .fade-in {
+    font-size: 0.7rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    max-width: 90%;
+  }
+
+  .highlight,
+  .echo {
+    font-weight: 600;
+    font-size: 30px;
+  }
 }
 
 @keyframes slideDown {
