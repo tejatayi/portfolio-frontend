@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ShootingStars from "./shootingStars";
@@ -11,12 +11,13 @@ function App() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="app-container">
       <ShootingStars />
       <nav className="navigation-bar">
-        <ul>
+        {/* Nav links */}
+        <ul className="nav-links">
           <li>
             <a href="#intro">Introduction</a>
           </li>
@@ -30,6 +31,27 @@ function App() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+      </nav>
+      <nav className="navbar-mobile">
+        <div className="burger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          ☰
+        </div>
+        {isMenuOpen && (
+          <ul className="mobile-menu">
+            <li>
+              <a href="#intro">Introduction</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        )}
       </nav>
       <div className="section-container">
         <div id="intro" className="intro">
